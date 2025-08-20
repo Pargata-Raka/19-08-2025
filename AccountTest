@@ -1,0 +1,11 @@
+public class AccountTest {
+    public static void main(String[] args){
+        Savingsaccount sa0001 = new Savingsaccount();
+        sa0001.balance = 200000;
+        sa0001.name = "King Von";
+        sa0001.interestRate = 0.02;
+        Savingsaccount sa0002 = new Savingsaccount();
+        sa0002.balance = 150000;
+        sa0002.name = "Tupac Shakur";
+    }//end method main
+}//end class AccountTest
